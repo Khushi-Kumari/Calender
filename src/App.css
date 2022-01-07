@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.th-container{
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%;
+}
+
+th,td,table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 1px 4px ;
+}
+
+ th{
+  background-color: black;
+  color: white;
+  border: 1px solid grey;
+} 
+
+.th-w{
+  width: 100%;
+}
+
+.th-pos{
+  position: absolute;
+ right: 8%;
+}
+.currentday{
+  background-color: aqua;
+}
